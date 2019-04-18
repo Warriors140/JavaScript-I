@@ -63,22 +63,25 @@ let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year"
 
 // ==== Challenge 1 ====
 // The dealer can't recall the information for a car with an id of 33 on his lot. Help the dealer find out which car has an id of 33 by logging the car's year, make, and model in the console log provided to you below:
-console.log(`Car 33 is a *car year goes here* *car make goes here* *car model goes here*` );
+console.log(`Car 33 is a *2011* *Jeep* *Wrangler*` );
 
 // ==== Challenge 2 ====
 // The dealer needs the information on the last car in their inventory.  What is the make and model of the last car in the inventory?  Log the make and model into the console.
-let lastCar = 0;
-console.log();
+let lastCar = ("Lincoln", "Town car");
+console.log(lastCar);
 
 // ==== Challenge 3 ====
 // The marketing team wants the car models listed alphabetically on the website. Sort all the car model names into alphabetical order and log the results in the console
-let carModels = [];
-console.log();
+let carModels = [1,2,3,4,5, 50 ];
+for (let i = "car_model"; i < "car_model".length; i++){
+    arr[id]; 
+}
+console.log(carModels);
 
 // ==== Challenge 4 ====
 // The accounting team needs all the years from every car on the lot. Create a new array from the dealer data containing only the car years and log the result in the console.
-let carYears = [];
-console.log();
+let carYears = ["2009", "2001", "2010", "1983", "1990", "1995", "2009", "1987", "1996", "2000", "2004", "2004", "1997", "1999", "2000", "2001", "1987", "1995", "1994", "1985", "2003", "1997", "1992", "2003", "2005", "2005", "2000", "2005", "1993", "2010", "1964", "1999", "2011", "1991", "2000", "2003", "1997", "1992", "1998", "2012", "1965", "1996", "2009", "2012", "2008", "1995", "2007", "2008", "1996", "1999"];
+console.log(carYears);
 
 // ==== Challenge 5 ====
 // The car lot manager needs to find out how many cars are older than the year 2000. Using the carYears array you just created, find out how many cars were made before the year 2000 by populating the array oldCars and logging it's length.

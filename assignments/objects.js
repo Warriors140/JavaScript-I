@@ -73,7 +73,7 @@ console.log (person5.gender);
 const student1 = {
   name: "Kennan",
   speak: function(){
-    console.log ('Hello, my name is $(this.name)');
+    console.log (`Hello, my name is ${this.name}`);
   }
 }
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
